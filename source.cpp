@@ -18,7 +18,7 @@ int WeekOfYear(string date, int year);
 
 //Chuong trinh chinh
 int main() {
-	cout << "DD/MM/YYYY (YYYY thuoc [1000; 9999]): ";
+	cout << "DD/MM/YYYY: ";
 	string date;
 	getline(cin, date);
 	int day = 0, month = 0, year = 0;
@@ -45,7 +45,8 @@ int main() {
 void StringToNum(string s, int& day, int& month, int& year) {
 	day = (s[0] - '0') * 10 + (s[1] - '0');
 	month = (s[3] - '0') * 10 + (s[4] - '0');
-	year = (s[6] - '0') * 1000 + (s[7] - '0') * 100 + (s[8] - '0') * 10 + (s[9] - '0');
+	year = 0;
+	for (int i = s.length() - 1, j = 0; i > 5; i--, j++) year += (s[i] - '0') * pow(10, j);
 }
 
 //Kiem tra nam nhuan
