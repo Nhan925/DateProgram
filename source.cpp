@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string> //De thuc hien cac thao tac voi xau
-#include <cmath> //De dung ham ceil()
+#include <cmath> //De dung ham ceil(), pow()
 using namespace std;
 
 //Cac ham dung trong chuong trinh
