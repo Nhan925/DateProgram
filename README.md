@@ -4,8 +4,8 @@
 - c. Cho biết ngày hôm trước.
 - d. Cho biết ngày mai. 
 - e. Nhập k: 
-  - • Cho biết ngày k kết tiếp. 
-  - • Cho biết ngày k trước đó. 
+  - Cho biết ngày k kết tiếp. 
+  - Cho biết ngày k trước đó. 
   - VD: ngày nhập là 15/01/2016, nhập k=10 
   - In ra: 05/01/2016 và 25/01/2016 
 - f. Cho biết ngày tháng năm nhập là thứ mấy trong tuần. 
